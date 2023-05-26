@@ -73,7 +73,7 @@ $(function(){
         //el.data('invalido','true');]
     }
     function resetarCampoInvalido(el){
-        el.css('color', '#ccc');
+        el.css('color', '#a7a7a7');
         el.css('border', '1px solid #ccc');
         el.val('');
     }
